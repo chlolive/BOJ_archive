@@ -1,0 +1,6 @@
+stack 자료구조를 구현하는 방법은 2가지  
+:배열, 연결 리스트  
+
+배열로 구현한 경우, pop과 push에서는 아래 구문이 핵심적!  
+1) pop: stack[++top]=item;  
+2) push: return stack[top--];
